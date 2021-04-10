@@ -1,0 +1,146 @@
+html{
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Serif JP', serif;
+    line-height: 1.3;
+    text-align: left;
+    color: #161313;
+    font-weight: 200;
+}
+
+h1{
+    margin: 0% 5% 0% 50%;
+    padding: 0;
+    line-height: 2;
+    text-align: right;
+    font-family: 'Poppins', sans-serif;
+    font-size: 200%;
+    font-weight: 900;
+    color: #874D59;
+    text-shadow: 0px 16px 16px 0px rgba(0, 0, 0, 0);
+}
+
+h3{
+    margin: -50% 5% 5% 50%;
+    padding: 0;
+    line-height: 2;
+    font-size: small;
+}
+
+h4{
+    margin: 5% 5% 50% 50%;
+    color: #874D59;
+    font-family: 'Noto Serif JP', serif;
+    padding: 0;
+    line-height: 2;
+    font-size: larger;
+    word-wrap: break-word;
+    font-weight: 800;
+}
+
+a{
+    font-weight: 600;
+    font-size: large;
+    color: #5E5B60;
+}
+
+a, a:visited {
+    text-decoration: none;
+}
+
+a.active, a:hover{
+    color: #874D59;
+    transition: .4s ease-in-out;
+}
+
+header {
+    margin: 0;
+    margin-top: -1.5%;
+    padding: 20px;
+    padding-right: 50px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.3;
+    z-index:1;
+    background-color: #F3EFE3;
+}
+
+.links{
+    text-align: right;
+}
+
+.fa {
+    position: relative;
+    margin-top: -4%;
+    padding: 10px;
+    font-size: 30px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background: #5E5B60;
+    color: white;
+  }
+  
+  .fa:hover {
+    background: white;
+    transition: .4s ease-in-out;
+  }
+  
+  .column1 {
+    float: left;
+    margin-left: 2%;
+  }
+
+  .column {
+    float: left;
+    margin-left: 100px;
+    margin-right: 10px;
+}
+
+
+button{
+    margin: 50px 50px 0% 0%;
+    padding: 1% 2% 1% 2%;
+    color: #5E5B60;
+    background-color: #CCC9BD;
+    border-radius: 60px;
+    position:relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    width:40%;
+    height:400px;
+    padding-bottom: 50px;
+}
+
+footer{
+    margin: 0;
+    padding: 0;
+    background-color: #F3EFE3;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 40%;
+    width: 100%;
+    z-index:-1;
+}
+
+.row{
+    background-color: #F3EFE3;
+    width: 100%;
+}
+
+
+img {
+    margin: 10%;
+}
